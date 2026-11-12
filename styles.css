@@ -93,3 +93,7 @@ figcaption,.feature-media figcaption,.platform-framework figcaption,.future-imag
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .publication-intro .pub-count{font-size:14px;line-height:1.75;margin:0}.course h2{margin-bottom:12px}.course .role{margin-bottom:24px}
+
+/* Keep the headshot at the proportions of the supplied reference. */
+.portrait-wrap { max-width: 326px; }
+.portrait-wrap img { width: 100%; height: auto; aspect-ratio: 326 / 372; object-fit: contain; }
